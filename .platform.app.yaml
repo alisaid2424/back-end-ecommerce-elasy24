@@ -1,0 +1,9 @@
+# .platform.app.yaml
+name: back-end-ecommerce-elasy
+
+runtime: php:8.2
+
+web:
+  commands:
+    start: "php -S 0.0.0.0:8080 -t public"
+  port: 8080
